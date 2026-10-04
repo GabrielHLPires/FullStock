@@ -15,6 +15,7 @@
         <li><a href="#cadastro">Cadastrar material</a></li>
         <li><a href="#estoque">Estoque</a></li>
         <li><a href="#detalhes">Detalhes</a></li>
+        <li><a href="#alertas">Alertas</a></li>
       </ul>
     </nav>
   </header>
@@ -179,7 +180,7 @@
             <td>8.000</td>
             <td>2.000</td>
             <td>
-              <button type="button">Ver detalhes</button>
+              <button type="button" onclick="location.href='#detalhes'">Ver detalhes</button>
               <button type="button">Editar</button>
               <button type="button">Excluir</button>
             </td>
@@ -272,6 +273,13 @@
       </article>
     </section>
   </main>
+    <aside id="alertas">
+    <h2>Alertas de estoque</h2>
+    <p>Materiais abaixo do estoque mínimo:</p>
+    <ul>
+      <li>Brita 1 – 1.500 Kg (mínimo: 3.000 Kg)</li>
+    </ul>
+  </aside>
 
   <footer>
     <p>FullStock – PUC Minas, 2026.2</p>
